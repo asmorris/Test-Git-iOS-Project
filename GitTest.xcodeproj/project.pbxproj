@@ -22,6 +22,7 @@
 		DA81C85D19B00D1500DE412E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA81C83C19B00D1500DE412E /* UIKit.framework */; };
 		DA81C86519B00D1500DE412E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA81C86319B00D1500DE412E /* InfoPlist.strings */; };
 		DA81C86719B00D1500DE412E /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA81C86619B00D1500DE412E /* GitTestTests.m */; };
+		DA81C87219B0130F00DE412E /* STATest.m in Sources */ = {isa = PBXBuildFile; fileRef = DA81C87119B0130F00DE412E /* STATest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		DA81C86219B00D1500DE412E /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		DA81C86419B00D1500DE412E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA81C86619B00D1500DE412E /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		DA81C87019B0130F00DE412E /* STATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STATest.h; sourceTree = "<group>"; };
+		DA81C87119B0130F00DE412E /* STATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STATest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				DA81C84A19B00D1500DE412E /* Main_iPhone.storyboard */,
 				DA81C84D19B00D1500DE412E /* Main_iPad.storyboard */,
 				DA81C85019B00D1500DE412E /* STAViewController.h */,
+				DA81C87019B0130F00DE412E /* STATest.h */,
+				DA81C87119B0130F00DE412E /* STATest.m */,
 				DA81C85119B00D1500DE412E /* STAViewController.m */,
 				DA81C85319B00D1500DE412E /* Images.xcassets */,
 				DA81C83F19B00D1500DE412E /* Supporting Files */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA81C87219B0130F00DE412E /* STATest.m in Sources */,
 				DA81C84519B00D1500DE412E /* main.m in Sources */,
 				DA81C84919B00D1500DE412E /* STAAppDelegate.m in Sources */,
 				DA81C85219B00D1500DE412E /* STAViewController.m in Sources */,
